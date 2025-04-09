@@ -30,3 +30,6 @@ RUN apt-get install -y \
     libopencv-dev \
     libeigen3-dev \
     libpcl-dev
+
+RUN git clone https://github.com/tauzn-clock/PlanarSLAM
+WORKDIR /PlanarSLAM
